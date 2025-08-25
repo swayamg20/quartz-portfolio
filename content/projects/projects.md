@@ -24,7 +24,7 @@ Here's a collection of projects I've worked on, from personal experiments to pro
   - Advanced analytics
 
 [[projects/project-alpha|View detailed case study →]]
-
+s
 ---
 
 ### 🚀 Project Beta
