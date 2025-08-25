@@ -29,7 +29,7 @@ see
 
 ### 🚀 Project Beta
 **Tech Stack:** React Native, Firebase, TypeScript  
-**Description:** Mobile application for personal productivity and habit tracking.
+**Description:** Mobile application for persddonal productivity and habit tracking.
 
 - **GitHub:** [link-to-repo]
 - **App Store:** [link-to-store]
