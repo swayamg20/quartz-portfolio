@@ -38,8 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      # ✅ Reference the output from the deploy step
-      url: ${{ steps.deploy-pages.outputs.page_url }}
+      # ✅ Reference the output from the deploy step      
     steps:
       - name: Deploy to GitHub Pages
         id: deploy-pages
