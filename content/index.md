@@ -7,7 +7,7 @@ tags:
 
 # Swayam Gupta
 
-Software developer passionate about creating efficient ytes, scalable solutions. I specialize in full-stack development with modern technologies and have experience building applications from concept to production.
+Software developer passionate about creating efficient ytes, scalable solutions. I specialize in full-stack development with modern technologies and have experience building applications fssrom concept to production.
 
 ## Navigation
 
