@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Fetch all history for git info
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -35,11 +35,11 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
-      # ✅ Reference the output from the deploy step      
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        id: deploy-pages
+        id: deployment
         uses: actions/deploy-pages@v4
